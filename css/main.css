@@ -1,0 +1,319 @@
+@charset "utf-8";
+
+#container{}
+
+/*mainSlider*/
+.mainSlider .slick-slider{
+	position: relative;
+}
+.mainSlider img{
+	width: 100%;
+	display: block;
+}
+.sliderText{
+	position: absolute;
+	top: 0;
+	top: 20%;
+	left: 50%;
+	margin-left: -106px;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: 600;
+	z-index: 10;
+}
+.companyInfo{
+	text-align: center;
+	margin-top: 150px;
+	padding: 0 5%;
+}
+.companyInfo p{
+	font-size: 25px;
+}
+.companyInfo span{
+	font-weight: bold;
+}
+.companyInfo img{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+	display: block;
+}
+
+/*mainCon*/
+.mainCon{
+	background: #FAFAFA;
+	overflow: hidden;
+}
+.con01{}
+.conTitle{
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0;
+}
+.con01Main{
+    position: relative;
+	min-height: 237px;
+}
+.con01moreBtn{
+	position: absolute;
+	bottom: 0;
+	bottom: 15px;
+	left: 5%;
+}
+.con01Main>img{
+    position: absolute;
+    top: 0;
+    right: 0;
+	left: 10%;
+	width: 100%;
+    display: block;
+	height: 
+}
+
+.con01MainText{
+    position: absolute;
+    top: 30px;
+    font-size: 35px;
+    line-height: 35px;
+    left: 7%;
+}
+.con01MainText p{
+	text-align: right;
+}
+.con01Slider{
+	position: relative;
+	text-align: center;
+}
+.con01Slider div{
+	padding: 20px;
+	min-width:250px;
+	margin-right: 2%;
+}
+.con01bg{
+	width:33.3%;
+	background: #fff;
+	border-radius: 5%;
+}
+.con01bg img{display: block;}
+.con01bg p{
+	font-size: 28px;
+	line-height: 28px;
+	padding-top: 10%;
+}
+.con01Slider{}
+.con01bg .slick-slide{
+}
+.con01bg{
+	background: #fff; 
+	border-radius: 5%;
+	box-sizing: border-box;
+	padding: 25px;
+	background-size: cover;
+	width: 290px;
+	height: 360px;
+}
+.con01bg img{
+	display: block;
+	padding-top: 15px
+}
+.con01bg p{
+	text-align: center;
+	font-size: 28px;
+	line-height: 30px;
+	padding-top: 30px;
+}
+/*con02BlackTea*/
+.con02{}
+.conTitle{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0;
+}
+.con02Main{
+    position: relative;
+    min-height: 237px;
+	margin-bottom: 150px;
+	margin-top: 200px;
+}
+.con02moreBtn{
+	position: absolute;
+	bottom: 0;
+	bottom: px;
+	right: 5%;
+}
+.con02Main>img{
+    position: absolute;
+    top: 0;
+	right: 10%;
+    display: block;
+	width: 100%;
+}
+.con02MainText{
+    position: absolute;
+    top: 30px;
+    font-size: 35px;
+    line-height: 35px;
+    right: 7%;
+}
+.con02MainText p{
+	text-align: left;
+}
+.con02Slider{
+	position: relative;
+	text-align: center;
+}
+.con02Slider div{
+	padding: 20px;
+	min-width: 250px;
+	margin-right: 2%;
+}
+/*
+.con02Slider01{
+	position: absolute;
+	top: 0;
+	left: -100px;
+}
+.con02Slider02{
+	margin-left: 34%;
+}
+.con02Slider03{
+	position: absolute;
+	top: 0;
+	right: -150px;
+}
+*/
+
+.con02bg{
+	background: #fff; 
+	border-radius: 5%;
+	box-sizing: border-box;
+	padding: 25px;
+	background-size: cover;
+	width: 290px;
+	height: 360px;
+	width: 33.3%;
+}
+.con02bg img{
+	display: block;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+.con02bg p{
+	text-align: center;
+	font-size: 28px;
+	line-height: 30px;
+	padding-top: 25px;
+}
+
+
+/*con03WaterRecipe*/
+.con03{
+	margin-top: 200px;
+}
+.con03Main{
+    position: relative;
+    height: 237px;
+}
+.con03moreBtn{
+	position: absolute;
+	bottom: 0;
+	bottom: 15px;
+	left: 5%;
+}
+.con03Main>img{
+    position: absolute;
+    top: 0;
+    right: 0;
+	left: 10%;
+	width: 100%;
+    display: block;
+}
+.con03MainText{
+    position: absolute;
+    top: 50px;
+    font-size: 35px;
+    line-height: 35px;
+    left: 5%;
+}
+.con03MainText p{
+	text-align: right;
+}
+.conTitle span{
+	font-weight: bold;
+}
+
+///////////////////////////////////////////
+.con03Pdt{
+	text-align: center;
+}
+.con03Pdt ul{
+	margin: 2%;
+}
+.con03Pdt li{
+	padding-bottom: 50px;
+}
+.con03_01{}
+.con03_01 li{
+	display: inline-block;
+	width: 31.3%;
+	margin-right: 2%; 
+}
+.con03_01 li:last-child{
+	margin-right: 0;
+}
+.con03Pdt img{
+	max-width:100%; 
+	height:auto;
+}
+.con03Pdt p{
+	font-size: 18px;
+	text-align: center;
+}
+/*숨김숨김*/
+.con03_02{
+	vertical-align: top;
+	display: none;
+}
+.con03_02 li{
+	display: inline-block;
+	width: 31.3%;
+	margin-right: 2%; 
+}
+.con03_02 li:nth-child(3n){
+	margin-right: 0;
+}
+.con03MoreBtn{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+/*con04Shop*/
+.con04{
+	position: relative;
+	min-height: 310px;
+}
+.con04 img{display: block;}
+.con04Text{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	right: 10%;
+	text-align: right;
+	top: 60%;
+}
+.con04 p{
+	font-size: 25px;
+	font-weight: bold;
+}
+.shopMoreBtn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	right: 10%;
+	bottom: 15%;
+}
+.shopMoreBtn p{
+	padding-bottom: 10px;
+}
+.shopMoreBtn img{display: block;}
+

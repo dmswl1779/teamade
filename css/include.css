@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+#header{
+	height: 110px;
+	line-height: 110px;
+	position: relative;
+}
+#header h1{
+	padding-left: 5%;
+}
+.panelBg{
+	background: #eee;
+}
+.panel .plusBtn{
+	position: absolute;
+	right: 0;
+	top: 50%;
+    margin-top: -14px;
+	right: 5%;
+}
+.panelMenu{
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(0,0,0,1);
+    transition: width 1s;
+    padding-top: 60px;
+	font-size: 16px;
+}
+.panelMenu li{
+    width: 240px;
+    line-height: 60px;
+    padding-left: 30px;
+}
+.panelMenu a{
+    color:#fff;
+    display: block;
+}
+.panelMenuIn{
+	position: relative;
+}
+.panelMenu .subArrow{
+	vertical-align: middle;
+	padding-left: 50%;
+}
+.closeBtn{
+	position: absolute;
+	top: 0;
+	top: -13%;
+	right: -65%;
+}
+.panelMenuSub{
+	display: none;
+}
+.panelMenuSub a{
+	color:#ddd;
+	font-size: 15px;
+}
+.panelMenu img{
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.subArrowDown{
+	display: none;
+}
+
+/*footer*/
+#footer{
+	background: #222;
+	position: relative;
+}
+.fText{
+	box-sizing: border-box;
+	padding: 50px 30px;
+	color:#fff;
+	line-height: 35px;
+}
+.fText p{
+	font-size: 18px; 
+	font-weight: lighter;
+}
+.fText span{
+	font-weight: normal;
+	padding-right:15px;
+}
+.fText .fTitle{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.fText .fTitle span{
+	font-weight: normal;
+	font-size: 15px;
+	padding-left: 15px;
+}
+.fLogo{
+	position: absolute;
+	bottom: 10%;
+	right: 0;
+}
+.fLogo img{
+	max-width:60%; 
+	height:auto;
+}
